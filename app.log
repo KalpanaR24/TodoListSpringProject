@@ -1,4 +1,0 @@
-2024-06-24T12:11:25.288-05:00  WARN 15140 --- [TodoListProject] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13h15m11s141ms211µs200ns).
-2024-06-24T12:25:11.332-05:00  WARN 15140 --- [TodoListProject] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m47s262ms448µs400ns).
-2024-06-24T12:30:06.347-05:00  WARN 15140 --- [TodoListProject] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m24s936ms747µs900ns).
-2024-06-24T13:15:52.373-05:00  WARN 15140 --- [TodoListProject] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=33m15s837ms997µs200ns).
