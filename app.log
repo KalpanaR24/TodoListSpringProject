@@ -1,22 +1,4 @@
-2024-06-23T07:02:22.504-05:00  INFO 15140 --- [TodoListProject] [main] c.t.MVC.TodoListProjectApplication       : Starting TodoListProjectApplication using Java 21.0.1 with PID 15140 (C:\Users\KALPANA\Documents\workspace-sts-3.9.18.RELEASE\TodoListProject\target\classes started by KALPANA in C:\Users\KALPANA\Documents\workspace-sts-3.9.18.RELEASE\TodoListProject)
-2024-06-23T07:02:22.515-05:00  INFO 15140 --- [TodoListProject] [main] c.t.MVC.TodoListProjectApplication       : No active profile set, falling back to 1 default profile: "default"
-2024-06-23T07:02:23.037-05:00  INFO 15140 --- [TodoListProject] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-06-23T07:02:23.090-05:00  INFO 15140 --- [TodoListProject] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 45 ms. Found 1 JPA repository interface.
-2024-06-23T07:02:23.516-05:00  INFO 15140 --- [TodoListProject] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8010 (http)
-2024-06-23T07:02:23.527-05:00  INFO 15140 --- [TodoListProject] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-06-23T07:02:23.528-05:00  INFO 15140 --- [TodoListProject] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
-2024-06-23T07:02:23.571-05:00  INFO 15140 --- [TodoListProject] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-06-23T07:02:23.572-05:00  INFO 15140 --- [TodoListProject] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1012 ms
-2024-06-23T07:02:23.712-05:00  INFO 15140 --- [TodoListProject] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-06-23T07:02:23.755-05:00  INFO 15140 --- [TodoListProject] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
-2024-06-23T07:02:23.784-05:00  INFO 15140 --- [TodoListProject] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-06-23T07:02:24.064-05:00  INFO 15140 --- [TodoListProject] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-06-23T07:02:24.087-05:00  INFO 15140 --- [TodoListProject] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-06-23T07:02:24.234-05:00  INFO 15140 --- [TodoListProject] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4656fcc5
-2024-06-23T07:02:24.235-05:00  INFO 15140 --- [TodoListProject] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-06-23T07:02:24.269-05:00  WARN 15140 --- [TodoListProject] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2024-06-23T07:02:25.085-05:00  INFO 15140 --- [TodoListProject] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-06-23T07:02:25.174-05:00  INFO 15140 --- [TodoListProject] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-06-23T07:02:25.387-05:00  WARN 15140 --- [TodoListProject] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-06-23T07:02:25.713-05:00  INFO 15140 --- [TodoListProject] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8010 (http) with context path '/'
-2024-06-23T07:02:25.721-05:00  INFO 15140 --- [TodoListProject] [main] c.t.MVC.TodoListProjectApplication       : Started TodoListProjectApplication in 3.577 seconds (process running for 4.168)
+2024-06-24T12:11:25.288-05:00  WARN 15140 --- [TodoListProject] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13h15m11s141ms211µs200ns).
+2024-06-24T12:25:11.332-05:00  WARN 15140 --- [TodoListProject] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m47s262ms448µs400ns).
+2024-06-24T12:30:06.347-05:00  WARN 15140 --- [TodoListProject] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m24s936ms747µs900ns).
+2024-06-24T13:15:52.373-05:00  WARN 15140 --- [TodoListProject] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=33m15s837ms997µs200ns).
